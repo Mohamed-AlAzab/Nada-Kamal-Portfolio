@@ -1,21 +1,8 @@
 'use client';
 
-import { useState } from 'react';
 import { Mail, Linkedin } from 'lucide-react';
 
 export default function ContactSection() {
-	const [formData, setFormData] = useState({
-		name: '',
-		email: '',
-		message: '',
-	});
-
-	const handleSubmit = (e: React.FormEvent) => {
-		e.preventDefault();
-		console.log('Form submitted:', formData);
-		alert(`Thank you for reaching out! I'll get back to you soon.`);
-	};
-
 	return (
 		<section className="py-20 bg-white">
 			<div className="container mx-auto px-6">
