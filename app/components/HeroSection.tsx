@@ -26,7 +26,7 @@ export default function HeroSection() {
 					</div>
 
 					<h2 className="text-2xl md:text-3xl font-semibold text-gray-700 mb-2">
-						Hi, I'm <span className="text-pink-600">Nada Kamal</span>
+						{`Hi, I'm `}<span className="text-pink-600">Nada Kamal</span>
 					</h2>
 
 					<h1 className="text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-pink-600 via-purple-600 to-rose-600 bg-clip-text text-transparent">
@@ -36,8 +36,7 @@ export default function HeroSection() {
 					</h1>
 
 					<p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-						Transforming complex ideas into intuitive, beautiful interfaces that users love.
-						Let's create something amazing together.
+						{`Transforming complex ideas into intuitive, beautiful interfaces that users love. Let's create something amazing together.`}
 					</p>
 
 					<div className="flex flex-wrap gap-4 justify-center">
@@ -53,7 +52,6 @@ export default function HeroSection() {
 
 						<a
 							href="/NadaKamal-Resume.pdf"
-							// download
 							target="_blank"
 							rel="noopener noreferrer"
 							className="px-8 py-4 bg-white text-gray-700 rounded-full font-medium hover:shadow-lg hover:scale-105 transition-all duration-300 border-2 border-pink-200 inline-flex items-center justify-center"
