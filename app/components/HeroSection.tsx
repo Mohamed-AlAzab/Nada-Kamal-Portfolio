@@ -51,7 +51,7 @@ export default function HeroSection() {
 						</a>
 
 						<a
-							href="/NadaKamal-Resume.pdf"
+							href="/resume.pdf"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="px-8 py-4 bg-white text-gray-700 rounded-full font-medium hover:shadow-lg hover:scale-105 transition-all duration-300 border-2 border-pink-200 inline-flex items-center justify-center"
