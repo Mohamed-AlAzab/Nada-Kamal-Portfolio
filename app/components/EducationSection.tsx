@@ -16,14 +16,14 @@ export default function EducationSection() {
     {
       title: "Professional Certificate in UI/UX Design",
       institution: "Route",
-      year: "2024",
+      year: "2025",
       description:
         "Comprehensive training in user research, prototyping, and usability testing.",
     },
     {
       title: "UX Design Advanced Course",
-      institution: "Route",
-      year: "2024",
+      institution: "Syntax",
+      year: "2025",
       description:
         "Enhanced design thinking, prototyping, and usability testing skills.",
     },
